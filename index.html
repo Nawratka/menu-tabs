@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu tabsy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="menu-tabs">
+            <button class="menu-tab menu-tab-active" onclick="showSection('first-tab', event)">Pozycja 1</button>
+            <button class="menu-tab" onclick="showSection('second-tab', event)">Pozycja 2</button>
+            <button class="menu-tab" onclick="showSection('third-tab', event)">Pozycja 3</button>
+        </div>
+
+        <div class="menu-section" id="first-tab">
+            <h3>Sekcja 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non praesentium reprehenderit consequuntur quod perspiciatis, commodi accusantium dicta. Animi, non?</p>
+            <p>Veniam voluptate ratione quia voluptates iste ea minima est cupiditate alias corporis cumque quam architecto quo eligendi, velit aliquid officia?</p>
+            <p>Voluptatem, aut. Iure quam ea modi ex aspernatur sunt laboriosam inventore facere, voluptatem commodi provident numquam nam dolores et necessitatibus.</p>
+        </div>
+        <div class="menu-section" id="second-tab" style="display: none">
+            <h3>Sekcja 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non praesentium reprehenderit consequuntur quod perspiciatis, commodi accusantium dicta. Animi, non?</p>
+            <p>Veniam voluptate ratione quia voluptates iste ea minima est cupiditate alias corporis cumque quam architecto quo eligendi, velit aliquid officia?</p>
+        </div>
+        <div class="menu-section" id="third-tab" style="display: none">
+            <h3>Sekcja 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non praesentium reprehenderit consequuntur quod perspiciatis, commodi accusantium dicta. Animi, non?</p>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
